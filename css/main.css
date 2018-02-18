@@ -1,0 +1,65 @@
+#logo {
+	width: 120px;
+	width: 120px;
+	display:inline-block;
+}
+#headerTitle {
+	color: #888b91;
+	/*text-align: right;*/
+}
+#headerName{
+	font-family: 'Fredoka One', cursive;
+	border: 1px solid #888b91;
+	padding: 5px;
+	display:inline-block;
+	text-transform: uppercase;
+}
+#headerJob {
+	font-family: 'Century Gothic',CenturyGothic,AppleGothic,sans-serif; 
+	margin-left: 6px;
+}
+#header {
+	padding: 5px;
+	border-bottom: 3px solid black;
+	display: flex;
+  	flex-wrap: nowrap;
+}
+
+.introduction {
+	font-size: 1.5em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	text-align: justify;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+#featuredWork{
+	font-family: 'Source Sans Pro', cursive;
+	color: black;
+}
+.images{
+	border: 1px solid #888b91;
+	border-radius: 25px;
+}
+.mainImage {
+	border: 1px solid #888b91;
+	border-radius: 25px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.appInfo {
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	font-size: 1.5em;
+	/*text-align: center;*/
+}
+@media screen and (max-width: 991px){
+	.appInfo {
+		display: flex;
+		flex-wrap: wrap;
+    	justify-content: center;
+    }
+	.images {
+		width: 300px;
+		height:300px;
+	}
+}
